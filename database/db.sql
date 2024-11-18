@@ -1,5 +1,5 @@
 CREATE DATABASE genciamentoDeChamados;
-
+USE genciamentoDeChamados;
 CREATE TABLE clientes (
     id_cliente INT PRIMARY KEY AUTO_INCREMENT,
     email_cliente varchar(255) not null,

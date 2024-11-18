@@ -1,95 +1,34 @@
-/* COnfig do form*/ 
-body {
-    background-color: rgb(255, 255, 255) ;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  p {
+      font-size: 1.5em;
+      font-weight: 600;
+  }
 }
 
-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-#register-title {
-    font-size: 1.8em;
-}
-
-.form {
-    /* Variaveis para a utilizar */
-    --bg-light: #efefef;
-    --bg-dark: #222222;
-    --clr: #0066ff;
-    --clr-alpha: #ffffff;
-    --bg-white: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    width: 100%;
-    max-width: 320px;
-    padding: 20px;
+main {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  button {
+    transition: 0.1s;
+    padding: 10px;
+    min-width: 17em;
     border-radius: 10px;
-    border: 1px solid black;
-  }
-  
-  .form .input-span {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  
-  .form input[type="email"],
-  .form input[type="number"] {
-    border-radius: 0.5rem;
-    padding: 1rem 0.75rem;
-    width: 100%;
     border: none;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    background-color: var(--clr-alpha);
-    outline: 2px solid var(--bg-dark);
-  }
-  
-  .form input[type="email"]:focus,
-  .form input[type="number"]:focus {
-    outline: 2px solid var(--clr);
-  }
-  
-  .label {
-    align-self: flex-start;
-    color: var(--clr);
-    font-weight: 600;
-  }
-  
-  .form .submit {
-    padding: 1rem 0.75rem;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    border-radius: 3rem;
-    background-color: var(--bg-dark);
-    color: var(--bg-light);
-    border: none;
+    background-color: rgb(49, 135, 248);
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
     cursor: pointer;
-    transition: all 300ms;
-    font-weight: 600;
-    font-size: 0.9rem;
   }
-  
-  .form .submit:hover {
-    background-color: var(--clr);
-    color: var(--bg-white);
+  button:hover {
+    transition: 0.1s;
+    background-color: rgb(0, 0, 0);
   }
-  
-  .span {
-    text-decoration: none;
-    color: var(--bg-dark);
-  }
-  
-  .span a {
-    color: var(--clr);
-  }
-  
+}
