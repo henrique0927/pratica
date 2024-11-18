@@ -1,0 +1,11 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    p {
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+}
+
