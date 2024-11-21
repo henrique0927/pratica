@@ -39,6 +39,7 @@ section {
     gap: 0.5rem;
   }
   
+  select,
   .form input[type="text"],
   .form input[type="email"],
   .form input[type="number"] {
@@ -86,7 +87,7 @@ section {
     color: var(--bg-white);
   }
   
-  .span {
+  select, .span {
     text-decoration: none;
     color: var(--bg-dark);
   }
@@ -94,4 +95,3 @@ section {
   .span a {
     color: var(--clr);
   }
-  
