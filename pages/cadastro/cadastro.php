@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
           /></span>
           <span class="input-span">
             <label for="telefone_cliente" class="label">Telefone</label>
-            <input type="number" name="telefone_cliente" id="password"  minlength="11" maxlength="11" required placeholder="Ex.:47912345678"
+            <input type="number" name="telefone_cliente" id="password"  required placeholder="Ex.:47912345678"
           /></span>
           <input class="submit" type="submit" value="Cadastrar" />
         </form>
